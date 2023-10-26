@@ -14,10 +14,10 @@ public class UserController {
 
        val userService = ServiceFactory.getUserService();
 
-       userService.saveUser("Viktor",
-               "Bilko",
-               "viktor.bilko@gmail.com",
-               "alkanaft");
+       userService.saveUser("",
+               "",
+               "",
+               "");
 
        userService.saveStudentsEmail("viktor.bilko@gmail.com");
        userService.saveStudentsEmail("Remwolf@bigmir.net");
